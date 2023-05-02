@@ -1,4 +1,4 @@
-from Database import Database
+from database import Database
 def main():
     restaurant_database = Database()
 
