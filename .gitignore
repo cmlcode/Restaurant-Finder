@@ -2,6 +2,11 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-*.pyc
-/database.ini
-/.vs/
+#Ignore temporary files
+/__pycache__
+
+#Ignore visual studio settings
+/.vs
+
+#Ignore file with user secrets
+database.ini
